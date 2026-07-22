@@ -118,6 +118,14 @@
     color: var(--color-primary);
   }
 
+  /* su mobile il li flex (marcatore + frammenti di testo/code) deve poter
+     andare a capo, altrimenti la riga unica sfora il viewport */
+  @media (max-width: 600px) {
+    .empty-steps li {
+      flex-wrap: wrap;
+    }
+  }
+
   .empty-tip {
     display: flex;
     align-items: center;
