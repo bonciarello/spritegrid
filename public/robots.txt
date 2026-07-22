@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-Sitemap: https://cristianporco.it/app/convertitore-di-icone-png-in-sprite-css-con-disposizione-a-griglia/sitemap.xml
