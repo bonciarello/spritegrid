@@ -71,7 +71,7 @@
     list-style: none;
     counter-reset: step;
     text-align: left;
-    max-width: 480px;
+    max-width: min(480px, 100%);
     display: flex;
     flex-direction: column;
     gap: var(--space-3);
